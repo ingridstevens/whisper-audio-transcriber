@@ -40,7 +40,8 @@ def main():
     st.sidebar.text("Progress...")
     # Sidebar: Upload audio file
     audio_file = st.file_uploader("Upload an audio file", type=["wav", "mp3", "m4a"])
-    st.sidebar.success(":tada: Audio file uploaded")
+    if audio_file:
+        st.sidebar.success(":tada: Audio file uploaded")
 
     # Display a success message in the sidebar once the Whisper model is loaded
 
