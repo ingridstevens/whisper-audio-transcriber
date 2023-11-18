@@ -1,5 +1,8 @@
 # Rag Over Whisper Audio Analysis
 
+![RAG Over audio](/images/cover.png)
+
+
 This repository contains a Jupyter notebook `rag-over-whisper-audio.ipynb` which demonstrates an analysis of audio data, leveraging the capabilities of Ollama embeddings, FAISS similarity search, and Language Model (LLM) chains for natural language processing tasks.
 
 The notebook primarily illustrates how to:
