@@ -1,9 +1,4 @@
-# Whisper Audio Transcriber
-
-Note: To perform RAG on your audio, use the Jupyter notebook. Other files are for the Streamlit app which is currently only set up to transcribe the file and nothing else.
-
-
--------------- 
+# Whisper Audio Transcriber App on Streamlit
 
 The Whisper Audio Transcriber is a user-friendly web application built with Streamlit for converting audio files to text using the Whisper ASR model.
 
