@@ -90,34 +90,34 @@ To give you a taste of what's possible, here an example usage of the notebook:
 
 **Understand Key Ideas from Historical Speeches**: Ask the system specific examples from a speech. In this case, I use a speech from [A.J.Cook](https://en.wikipedia.org/wiki/A._J._Cook_(trade_unionist)) a trade unionist who gave a speech on the 1st of December 1926.
    
-    ```python
+    
     query = "What is the idea of the republic?"
-    ```
+    
 
 Then we can do a semantic search for documents with similar content to the query:
     
-    ```python
+    
     docs = docsearch.similarity_search(query)
     docs
-    ```
+    
 
 Which reveals the following documents: 
 
-    ```python
+    
     [Document(page_content='among men to secure these rights, and that governments derive their just powers from the consent of', metadata={'source': '5'}),
     Document(page_content='weight of their own armaments. A republic whose flag is loved by other flags are only tears. The', metadata={'source': '11'}),
     Document(page_content='propaming to the world the self-evident propositions that all men are created equal, that they are', metadata={'source': '3'}),
     Document(page_content='the coming of a universal brotherhood. A republic which shakes roads and dissolves their', metadata={'source': '14'})]
-    ```
+    
 
 Then we take the documents and the query together to generate a response 
 
-    ```python 
+     
     response = chain({"input_documents": docs, "question": query}, return_only_outputs=True)
     print(response["output_text"])
-    ```
+    
 Which gives us the following response:
 
-    ```python
+    
      Based on the context provided, it seems that the idea of the republic is centered around the concept of democracy and the belief that governments derive their power from the consent of the governed. The republic is seen as a way to secure individual rights and promote equality among citizens, with the ultimate goal of creating a universal brotherhood. Additionally, the flag of the republic is seen as a symbol of hope and progress, representing the idea that all men are created equal and have the right to be heard.
-    ```
+    
