@@ -88,7 +88,9 @@ Note: This README is a high-level abstraction of the Jupyter notebook. For detai
 
 To give you a taste of what's possible, here an example usage of the notebook:
 
-**Understand Key Ideas from Historical Speeches**: Ask the system specific examples from a speech. In this case, I use a speech from [A.J.Cook](https://en.wikipedia.org/wiki/A._J._Cook_(trade_unionist)) a trade unionist who gave a speech on the 1st of December 1926.
+**Understand Key Ideas from a 1926 Trade Union Speech**: 
+
+In this case, I use a speech from [A.J.Cook](https://en.wikipedia.org/wiki/A._J._Cook_(trade_unionist)) a trade unionist who gave a speech on the 1st of December 1926. A.J.Cook was a prominent figure in the British Labour Party and was a key figure in the General Strike of 1926. He gave a speech, and we can use RAG to understand the key ideas from the speech.
    
     
     query = "What is the idea of the republic?"
@@ -119,5 +121,5 @@ Then we take the documents and the query together to generate a response
 Which gives us the following response:
 
     
-     Based on the context provided, it seems that the idea of the republic is centered around the concept of democracy and the belief that governments derive their power from the consent of the governed. The republic is seen as a way to secure individual rights and promote equality among citizens, with the ultimate goal of creating a universal brotherhood. Additionally, the flag of the republic is seen as a symbol of hope and progress, representing the idea that all men are created equal and have the right to be heard.
+> Based on the context provided, it seems that the idea of the republic is centered around the concept of democracy and the belief that governments derive their power from the consent of the governed. The republic is seen as a way to secure individual rights and promote equality among citizens, with the ultimate goal of creating a universal brotherhood. Additionally, the flag of the republic is seen as a symbol of hope and progress, representing the idea that all men are created equal and have the right to be heard.
     
