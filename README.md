@@ -90,6 +90,8 @@ To give you a taste of what's possible, here an example usage of the notebook:
 
 **Understand Key Ideas from a 1926 Trade Union Speech**: 
 
+![A.J.Cook](https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/AJ_Cook.webp/220px-AJ_Cook.webp.png)
+
 In this case, I use a speech from [A.J.Cook](https://en.wikipedia.org/wiki/A._J._Cook_(trade_unionist)) a trade unionist who gave a speech on the 1st of December 1926. A.J.Cook was a prominent figure in the British Labour Party and was a key figure in the General Strike of 1926. He gave a speech, and we can use RAG to understand the key ideas from the speech.
    
     
