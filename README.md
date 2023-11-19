@@ -21,7 +21,7 @@ The notebook primarily illustrates how to:
 ## Installation
 1. Ensure you have Python 3 installed.
 2. Clone this repository or download the Jupyter notebook file.
-3. Open the Jupyter notebook in JupyterLab or Jupyter Notebook environment.
+3. Open the Jupyter notebook in VSCode (I use the Jupyter extension in VSCode), JupyterLab or Jupyter Notebook environment.
 4. Install required Python libraries using `pip` or `conda`.
 
     ```bash
