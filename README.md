@@ -28,6 +28,12 @@ The notebook primarily illustrates how to:
     pip install ollama faiss-cpu langchain
     ```
 
+    or if you need to specify Python 3:
+
+    ```bash
+    Python3 pip install ollama faiss-cpu langchain
+    ```
+
     or
 
     ```bash
