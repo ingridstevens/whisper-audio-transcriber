@@ -2,8 +2,9 @@
 
 ![RAG Over audio](/images/cover.png)
 
+If you've wanted to play around with audio, RAG, and locally-run LLMs - this is a perfect starting point! 
 
-This repository contains a Jupyter notebook `rag-over-whisper-audio.ipynb` which demonstrates an analysis of audio data, leveraging the capabilities of Ollama embeddings, FAISS similarity search, and open-source Large Language Model (LLM) chains for natural language processing tasks. 
+This repository contains a Jupyter notebook `rag-over-whisper-audio.ipynb` which demonstrates an analysis of audio data, leveraging the capabilities of Ollama embeddings, FAISS similarity search, and open-source Large Language Model (LLM) chains. Loading in your own audio to this notebook enables you to ask questions about the information contained in your audio file completely locally.
 
 The notebook primarily illustrates how to:
 1. Load and examine audio-derived text data.
