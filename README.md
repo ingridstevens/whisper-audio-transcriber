@@ -31,7 +31,7 @@ The notebook primarily illustrates how to:
     or if you need to specify Python 3:
 
     ```bash
-    Python3 pip install ollama faiss-cpu langchain
+    python3 -m pip install ollama faiss-cpu langchain
     ```
 
     or
