@@ -1,11 +1,11 @@
-# Rag Over Whisper Audio Analysis
+# Uncovering Insights in Audio: An Exploration
 
 ![RAG Over audio](/images/cover.png)
 
 
 ## Welcome!
 
-Have you ever wondered what stories lie within the audio recordings around you? Perhaps you have an interview, a podcast, or a lecture that you wish you could dive into more deeply? This project is here to guide you on a journey of discovery, using a friendly and accessible approach to explore the richness of audio data.
+Have you ever wondered what stories lie within the audio recordings around you? Perhaps you have an interview, a podcast, or a lecture that you wish you could dive into more deeply? This "Uncovering Insights in Audio" project is here to guide you on a journey of discovery, using a friendly and accessible approach to explore the richness of audio data.
 
 ## Why Audio Analysis?
 
