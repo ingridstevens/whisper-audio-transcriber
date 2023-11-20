@@ -86,7 +86,7 @@ To give you a taste of what's possible, here an example usage of the notebook:
 
 ![A.J.Cook](https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/AJ_Cook.webp/220px-AJ_Cook.webp.png)
 
-This is [Mr. A.J. Cook](https://en.wikipedia.org/wiki/A._J._Cook_(trade_unionist)) - a prominent figure in the British Labour Party and was a key figure in the General Strike of 1926. He gave a speech on the 1st of December 1926. We can use Retreival Augmented Generation - or RAG - to understand the key ideas from the speech.
+This is [Mr. A.J. Cook](https://en.wikipedia.org/wiki/A._J._Cook_(trade_unionist)) - a prominent figure in the British Labour Party and a key figure in the General Strike of 1926. He gave a speech on the 1st of December 1926. We can use Retreival Augmented Generation - or RAG - to understand the key ideas from the speech. His speech can be found on [wikipedia](https://commons.wikimedia.org/wiki/File:A_J_Cook_Speech_from_Lansbury%27s_Labour_Weekly.ogg)
 
 Let's start by defining a question we want to answer:
    
@@ -94,7 +94,7 @@ Let's start by defining a question we want to answer:
     query = "What is the idea of the republic?"
     
 
-Then we can do a semantic similarity search for documents with similar content to the query. Semantic similarity is a measure of the degree to which two pieces of text carry the same meaning. We can also print out these documents:
+Next, we can do a semantic similarity search for documents with similar content to the query. Semantic similarity is a measure of the degree to which two pieces of text carry the same meaning. We can also print out these documents:
     
     
     docs = docsearch.similarity_search(query)
