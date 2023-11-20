@@ -92,14 +92,14 @@ In this case, I use a speech from [A.J.Cook](https://en.wikipedia.org/wiki/A._J.
     query = "What is the idea of the republic?"
     
 
-Then we can do a semantic search for documents with similar content to the query:
+Then we can do a semantic similarity search for documents with similar content to the query. Semantic similarity is a measure of the degree to which two pieces of text carry the same meaning.
     
     
     docs = docsearch.similarity_search(query)
     docs
     
 
-Which reveals the following documents: 
+Which reveals the following chunks of text that are similar to the query: 
 
     
     [Document(page_content='among men to secure these rights, and that governments derive their just powers from the consent of', metadata={'source': '5'}),
@@ -108,7 +108,7 @@ Which reveals the following documents:
     Document(page_content='the coming of a universal brotherhood. A republic which shakes roads and dissolves their', metadata={'source': '14'})]
     
 
-Then we take the documents and the query together to generate a response 
+Then we take these text chunks, and the query together to generate a response. This is the RAG step - our query is semantically compared to our document chunks, and we *Retrive* the top several semantically similar chunks. These then *Augment* our query to enable us to *Generate* a response - there you have it RAG!
 
      
     response = chain({"input_documents": docs, "question": query}, return_only_outputs=True)
@@ -119,5 +119,6 @@ Which gives us the following response:
     
 > Based on the context provided, it seems that the idea of the republic is centered around the concept of democracy and the belief that governments derive their power from the consent of the governed. The republic is seen as a way to secure individual rights and promote equality among citizens, with the ultimate goal of creating a universal brotherhood. Additionally, the flag of the republic is seen as a symbol of hope and progress, representing the idea that all men are created equal and have the right to be heard.
 
+Now we know more about Cook's speech!
 
-**And now we know more about the key ideas from the speech!**
+**Thanks for staying with me until the end! We now we know more about the key ideas from the speech!**
