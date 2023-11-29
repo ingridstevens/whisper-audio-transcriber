@@ -39,7 +39,7 @@ The notebook primarily illustrates how to:
 ## Prerequisites
 - Python 3
 - Jupyter Notebook or JupyterLab
-- Required Python libraries: `ollama`, `faiss`, `langchain`
+- Required Python libraries: `ollama`, `faiss`, `langchain`, `langchainhub`
 
 ## Installation
 1. Ensure you have Python 3 installed.
